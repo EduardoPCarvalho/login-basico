@@ -8,15 +8,14 @@
 </head>
 <body>
     <main>
-        <section>
-            <div id="container">
-                <div id="login">
-                    <h1>Login</h1>
-                    <form action="cadastro.php">
-                        <input class="bloco" type="text" name="nome" id="inome" placeholder="Nome">
-                        <input class="bloco" type="password" name="senha" id="isenha" placeholder="Senha">
-                    </form>
-                </div>
+        <section class="container">
+            <div class="login">
+                <h1>Login</h1>
+                <form action="login.php" method="get" autocomplete="on">
+                    <input type="text" name="nome" id="inome" placeholder="Usuario">
+                    <input type="password" name="senha" id="isenha" placeholder="Senha">
+                    <input id="botao" type="submit" value="Enviar">
+                </form>
             </div>
         </section>
     </main>
